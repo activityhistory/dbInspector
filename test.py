@@ -1,6 +1,11 @@
 # Erin Cole
 # dbInspector test file for getting started
 
+#TODO figure which initial stats to include in query
+#     look through visualization book
+#     start planning layout of visualization
+
+
 import pyodbc
 import showStats
 # Unit test for showStats function
