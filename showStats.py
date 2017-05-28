@@ -12,5 +12,10 @@
 # Return Value: a formatted string of the initial statistics of a database
 
 def showStats(cnxn):
-         
-    
+    cursor = cnxn.cursor()
+    cursor.execute("""
+                    select * from public.users
+                    """)
+    rows = cursor.fetchall()
+
+    return rows 
